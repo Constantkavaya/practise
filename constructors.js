@@ -62,28 +62,3 @@ return collect;
  }
  var store =  organisation();
  store();
-//add elements  and values to an object
- items={
-   pen:8
- }
- items["shoes"]=90
- console.log(items)
-var items={
-  pencil:4,
-  eraser:20,
-  book:90
-}
-items["eraser"]=30
-items.eraser=30
-delete items.pencil
- //var allitems=omit(items,pencil)
-
-
- const myPromise = new Promise((resolve, reject) => {  
-  let condition;  
-  if(conditionismet) {    
-      resolve('Promise is resolved successfully.');  
-  } else {    
-      reject('Promise is rejected');  
-  }
-});
