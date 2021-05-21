@@ -77,3 +77,13 @@ items["eraser"]=30
 items.eraser=30
 delete items.pencil
  //var allitems=omit(items,pencil)
+
+
+ const myPromise = new Promise((resolve, reject) => {  
+  let condition;  
+  if(conditionismet) {    
+      resolve('Promise is resolved successfully.');  
+  } else {    
+      reject('Promise is rejected');  
+  }
+});
